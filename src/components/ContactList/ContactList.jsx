@@ -9,12 +9,12 @@ import {
 
 import PropTypes from 'prop-types';
 
-const ContactList = ({ filteredcontacts }) => {
+const ContactList = ({ filteredContacts }) => {
   const dispatch = useDispatch();
 
   return (
     <ContactListUl>
-      {filteredcontacts.map(contact => {
+      {filteredContacts.map(contact => {
         return (
           <ContactListItem key={contact.id}>
             {contact.name}: {contact.number}

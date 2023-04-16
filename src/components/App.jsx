@@ -59,7 +59,7 @@ const App = () => {
       <ContactForm />
       <AppSubheader>Contacts</AppSubheader>
       <Filter />
-      <ContactList filteredcontacts={searchContact()} />
+      <ContactList filteredContacts={searchContact()} />
     </AppBody>
   );
 };
