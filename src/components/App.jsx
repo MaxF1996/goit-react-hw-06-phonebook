@@ -14,8 +14,8 @@ const App = () => {
   const contacts = useSelector(getContacts);
   const filter = useSelector(getFilter);
 
-  console.log(contacts);
-  console.log(filter);
+  // console.log(contacts);
+  // console.log(filter);
 
   const searchContact = () => {
     return contacts.filter(contact =>

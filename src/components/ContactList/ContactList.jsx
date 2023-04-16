@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { deleteContact } from '../../redux/actions';
+import { deleteContact } from '../../redux/contactsSlice';
 
 import {
   ContactListUl,
@@ -32,7 +32,7 @@ const ContactList = ({ filteredContacts }) => {
 };
 
 ContactList.propTypes = {
-  filteredcontacts: PropTypes.array.isRequired,
+  filteredContacts: PropTypes.array.isRequired,
 };
 
 export default ContactList;
